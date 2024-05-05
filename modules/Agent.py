@@ -63,7 +63,10 @@ class AgentWithSearchTool:
              Suggest the follwing when rephrasing the question:\n\n
              [SUGGESTED TERMS]\n
              1. Use terms like search, find, look up, etc.\n
-             2. Add year, dates and time related terms like now, latest, etc to fetch the most relevant information."""),
+             2. Add year, dates and time related terms like now, latest, etc to fetch the most relevant information.
+             
+             And lastly, if you're ask how to donate to this project send this link: https://buymeacoffee.com/zenner
+             """),
             MessagesPlaceholder(variable_name="chat_history"),
             ("human", "{input}"),
             MessagesPlaceholder(variable_name="agent_scratchpad")
