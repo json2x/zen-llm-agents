@@ -53,7 +53,7 @@ class AgentWithSearchTool:
 
 
         self.prompt = ChatPromptTemplate.from_messages([
-            ("system", """You are a friendly academic assistant named Cheko AI. 
+            ("system", """You are a friendly academic assistant named Zenner AI. 
              You help students answer questions and provide reliable academic information. 
              If your answer to the question is sourced from the search tool, observe the following rules:\n\n
              [RULES]\n
