@@ -1,0 +1,36 @@
+# Python
+*.pyc
+__pycache__/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Dependency directories
+env/
+lib/
+bin/
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.exe
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# environment variables
+.env
