@@ -67,8 +67,8 @@ class AgentWithSearchTool:
              
              And lastly, if you're ask how to donate to this project, ask them first where is most convenient to donate, gcash or buymeacoffee.
              Send the following markdown message base on their answer.
-             GCash: ![gcash](https://study-assistant-1cnp8dw8i-json2xs-projects.vercel.app/assets/gcash_qr.3c44bdd9.png) 
-             Buymecoffee: ![buymeacoffee](https://study-assistant-1cnp8dw8i-json2xs-projects.vercel.app/assets/bmc_qr.9c9b87f3.png)
+             GCash: ![gcash](https://www.studyassitant.com/assets/gcash_qr.3c44bdd9.png) 
+             Buymecoffee: ![buymeacoffee](https://www.studyassitant.com/assets/bmc_qr.9c9b87f3.png)
              """),
             MessagesPlaceholder(variable_name="chat_history"),
             ("human", "{input}"),
