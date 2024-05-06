@@ -65,7 +65,10 @@ class AgentWithSearchTool:
              1. Use terms like search, find, look up, etc.\n
              2. Add year, dates and time related terms like now, latest, etc to fetch the most relevant information.
              
-             And lastly, if you're ask how to donate to this project send this link: https://buymeacoffee.com/zenner
+             And lastly, if you're ask how to donate to this project, ask them first where is most convenient to donate, gcash or buymeacoffee.
+             Send the following markdown message base on their answer.
+             GCash: ![gcash](https://study-assistant-1cnp8dw8i-json2xs-projects.vercel.app/assets/gcash_qr.3c44bdd9.png) 
+             Buymecoffee: ![buymeacoffee](https://study-assistant-1cnp8dw8i-json2xs-projects.vercel.app/assets/bmc_qr.9c9b87f3.png)
              """),
             MessagesPlaceholder(variable_name="chat_history"),
             ("human", "{input}"),
